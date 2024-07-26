@@ -1,6 +1,7 @@
-function fillInputs() {
+export function fillInputs() {
     const allInputs = document.querySelectorAll('input');
     allInputs.forEach(input => {
+
         switch(input.type) {
             case 'text':
                 input.value = 'Lorem Ipsum';
@@ -15,8 +16,8 @@ function fillInputs() {
         }
     });
 
-    const textareas = document.querySelectorAll('textarea');
-    textareas.forEach(textarea => {
+    const Alltextareas = document.querySelectorAll('textarea');
+    Alltextareas.forEach(textarea => {
         textarea.value = 'Lorem Ipsum';
     });
 }

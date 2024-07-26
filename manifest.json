@@ -1,0 +1,10 @@
+{
+    "manifest_version": 3,
+    "name": "Auto Fill Inputs",
+    "version": "1.0",
+    "description": "Uma extensão para preencher automaticamente todos os campos de input da pagina atual.",
+    "permissions": ["activeTab", "scripting"],
+    "action": {
+      "default_popup": "popup/popup.html"
+    }
+}
